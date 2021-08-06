@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+.mainArea{
+    min-width:100%;
+    min-height: 100%;
+}
+.nav-link{
+    font-family:'Encode Sans SC', sans-serif;
+    margin: 0 2%;
+    font-weight: 900;
+}
+.data{
+    font-family: 'Uchen', serif;
+    line-height:42px;
+}
+.mainHeading{
+    font-weight: normal;
+    font-family: 'Uchen', serif;
+    line-height:1px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about{
+    font-family:'Encode Sans SC', sans-serif;
+    line-height:38px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aboutLeft{
+    font-weight: 1000;
 }
